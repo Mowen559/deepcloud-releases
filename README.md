@@ -34,6 +34,8 @@
 | **`deepcloud-ui Setup 0.2.3.exe`** | **全量安装** | 首次使用请下载此安装包，支持自定义路径并自动创建桌面快捷方式 | [立即下载](https://github.com/Mowen559/deepcloud-releases/releases/download/v0.2.3/deepcloud-ui.Setup.0.2.3.exe) |
 | **`deepcloud-update-v0.2.3.asar`** | **增量热更新** | 针对已有安装用户的轻量热更新补丁包（仅几十MB，秒级生效） | [立即下载](https://github.com/Mowen559/deepcloud-releases/releases/download/v0.2.3/deepcloud-update-v0.2.3.asar) |
 | **`app.asar`** | **核心包替换** | 完整核心脚本文件，可直接覆盖安装目录 `resources/app.asar` | [立即下载](https://github.com/Mowen559/deepcloud-releases/releases/download/v0.2.3/app.asar) |
+| **`hub-windows-amd64.zip`** | **AI 智能体服务** | Hub 智能体与视觉处理中台守护进程绿色包（内含 `hub.exe`，支持自动解压热加载） | [立即下载](https://github.com/Mowen559/deepcloud-releases/releases/download/v0.2.6/hub-windows-amd64.zip) |
+| **`hub.exe`** | **智能体独立程序** | Hub 智能体服务端单文件独立可执行程序 | [立即下载](https://github.com/Mowen559/deepcloud-releases/releases/download/v0.2.6/hub.exe) |
 | **`deepcloud-ui Setup 0.2.3.exe.blockmap`** | **差分元数据** | 提供网络断点续传与块差分更新校验 | [立即下载](https://github.com/Mowen559/deepcloud-releases/releases/download/v0.2.3/deepcloud-ui.Setup.0.2.3.exe.blockmap) |
 | **`checksums.txt`** | **哈希清单** | 官方发布的全部安装包与核心组件 SHA256 校验清单 | [查看清单](https://github.com/Mowen559/deepcloud-releases/releases/download/v0.2.3/checksums.txt) |
 
@@ -47,7 +49,9 @@
 Get-FileHash -Path ".\deepcloud-ui Setup 0.2.3.exe" -Algorithm SHA256
 ```
 
-### v0.2.3 官方发布哈希标准基线：
+### 官方发布哈希标准基线：
+- **`hub-windows-amd64.zip`**：`76733eb125d2109f46736c434fe2b547ba47f214913b1f472b679b5b8fd96729`
+- **`hub.exe`**：`e4c1e380b5ea3afaec987723d9e1d3eec557fcdfb9027a9d1f9bd8ce6688f588`
 - **`deepcloud-ui Setup 0.2.3.exe`**：`537881c3a96ad80ec765c8c374f18dd61157aa439234a998b00a82c70e1adfec`
 - **`deepcloud-update-v0.2.3.asar`**：`5eed63a3387b671cc4d7f79216b69a8003e2f9b0481d17c9842126f67825800b`
 - **`app.asar`**：`5eed63a3387b671cc4d7f79216b69a8003e2f9b0481d17c9842126f67825800b`

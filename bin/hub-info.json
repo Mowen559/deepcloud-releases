@@ -1,0 +1,12 @@
+{
+  "exe": {
+    "name": "hub.exe",
+    "size": 79171584,
+    "sha256": "e4c1e380b5ea3afaec987723d9e1d3eec557fcdfb9027a9d1f9bd8ce6688f588"
+  },
+  "zip": {
+    "name": "hub-windows-amd64.zip",
+    "size": 29239335,
+    "sha256": "76733eb125d2109f46736c434fe2b547ba47f214913b1f472b679b5b8fd96729"
+  }
+}

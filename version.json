@@ -24,6 +24,18 @@
       "browser_download_url": "https://github.com/Mowen559/deepcloud-releases/releases/download/v0.2.6/app.asar",
       "size": 93467154,
       "sha256": "7643bfcbba365fac83d87d7ef78fa8e438dc7a36afee1fa25c8bfde2f01892d4"
+    },
+    {
+      "name": "hub-windows-amd64.zip",
+      "browser_download_url": "https://github.com/Mowen559/deepcloud-releases/releases/download/v0.2.6/hub-windows-amd64.zip",
+      "size": 29239335,
+      "sha256": "76733eb125d2109f46736c434fe2b547ba47f214913b1f472b679b5b8fd96729"
+    },
+    {
+      "name": "hub.exe",
+      "browser_download_url": "https://github.com/Mowen559/deepcloud-releases/releases/download/v0.2.6/hub.exe",
+      "size": 79171584,
+      "sha256": "e4c1e380b5ea3afaec987723d9e1d3eec557fcdfb9027a9d1f9bd8ce6688f588"
     }
   ]
 }
