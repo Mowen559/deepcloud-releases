@@ -1,29 +1,29 @@
 {
-  "version": "0.2.5",
-  "tag_name": "v0.2.5",
-  "title": "DeepCloud Desktop v0.2.5 (Windows x64)",
-  "releaseNotes": "【紧急修复】彻底解决 Windows 客户端热更新点击立即重启时弹出黑框终端卡死的问题！采用系统原生纯 GUI 引导器实现 0 黑框平滑秒级热重启；全量集成现代化平滑防抖滚动条与多主题皮肤联动体验。",
-  "publishedAt": "2026-10-08T08:44:00Z",
-  "releaseUrl": "https://github.com/Mowen559/deepcloud-releases/releases/tag/v0.2.5",
-  "downloadUrl": "https://github.com/Mowen559/deepcloud-releases/releases/download/v0.2.5/deepcloud-update-v0.2.5.asar",
+  "version": "0.2.6",
+  "tag_name": "v0.2.6",
+  "title": "DeepCloud Desktop v0.2.6 (Windows x64)",
+  "releaseNotes": "【界面极净化】彻底移除播放器顶部不必要的 DeepCloud 与海阔视界等程序名称，精简返回操作胶囊，界面通透干净；全量包含无黑框静默秒级热重启与防抖换肤滚动条体系。",
+  "publishedAt": "2026-10-08T09:01:00Z",
+  "releaseUrl": "https://github.com/Mowen559/deepcloud-releases/releases/tag/v0.2.6",
+  "downloadUrl": "https://github.com/Mowen559/deepcloud-releases/releases/download/v0.2.6/deepcloud-update-v0.2.6.asar",
   "assets": [
     {
-      "name": "deepcloud-update-v0.2.5.asar",
-      "browser_download_url": "https://github.com/Mowen559/deepcloud-releases/releases/download/v0.2.5/deepcloud-update-v0.2.5.asar",
-      "size": 93451605,
-      "sha256": "2ebf91ddf5cc0ca6cdd02549e53e9e3cfb16ad41e8315997eee5245a725140f1"
+      "name": "deepcloud-update-v0.2.6.asar",
+      "browser_download_url": "https://github.com/Mowen559/deepcloud-releases/releases/download/v0.2.6/deepcloud-update-v0.2.6.asar",
+      "size": 93467154,
+      "sha256": "7643bfcbba365fac83d87d7ef78fa8e438dc7a36afee1fa25c8bfde2f01892d4"
     },
     {
-      "name": "deepcloud-ui Setup 0.2.5.exe",
-      "browser_download_url": "https://github.com/Mowen559/deepcloud-releases/releases/download/v0.2.5/deepcloud-ui.Setup.0.2.5.exe",
-      "size": 165849851,
-      "sha256": "224f09425c0fd78d1caeb5acc340db4b5d7c72ec06e857e5effa07cdb094e179"
+      "name": "deepcloud-ui Setup 0.2.6.exe",
+      "browser_download_url": "https://github.com/Mowen559/deepcloud-releases/releases/download/v0.2.6/deepcloud-ui.Setup.0.2.6.exe",
+      "size": 165846286,
+      "sha256": "7759624d227c887b1ad3e3dfa687d6b413ed4594c1cf3739dee1bc2339e0fbcb"
     },
     {
       "name": "app.asar",
-      "browser_download_url": "https://github.com/Mowen559/deepcloud-releases/releases/download/v0.2.5/app.asar",
-      "size": 93451605,
-      "sha256": "2ebf91ddf5cc0ca6cdd02549e53e9e3cfb16ad41e8315997eee5245a725140f1"
+      "browser_download_url": "https://github.com/Mowen559/deepcloud-releases/releases/download/v0.2.6/app.asar",
+      "size": 93467154,
+      "sha256": "7643bfcbba365fac83d87d7ef78fa8e438dc7a36afee1fa25c8bfde2f01892d4"
     }
   ]
 }
