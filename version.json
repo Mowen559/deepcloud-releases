@@ -2,7 +2,7 @@
   "version": "0.2.3",
   "tag_name": "v0.2.3",
   "title": "DeepCloud Desktop v0.2.3 (Windows x64)",
-  "releaseNotes": "【紧急修复】彻底根治独立视频播放器黑屏与 404 崩溃，完善画中画协议与同源会话共享，全面审查排除本地测试数据。",
+  "releaseNotes": "【紧急修复】彻底根治独立视频播放器黑屏与 404 崩溃，完善画中画协议与同源会话共享，全面审查排除本地测试数据，升级全球 CDN 极速版本探测与强制检查更新。",
   "publishedAt": "2026-10-08T07:48:41Z",
   "releaseUrl": "https://github.com/Mowen559/deepcloud-releases/releases/tag/v0.2.3",
   "downloadUrl": "https://github.com/Mowen559/deepcloud-releases/releases/download/v0.2.3/deepcloud-update-v0.2.3.asar",
@@ -10,20 +10,20 @@
     {
       "name": "deepcloud-update-v0.2.3.asar",
       "browser_download_url": "https://github.com/Mowen559/deepcloud-releases/releases/download/v0.2.3/deepcloud-update-v0.2.3.asar",
-      "size": 93769761,
-      "sha256": "fc9f208456f37f6ca0fcd6f71f14f5226906591402ceaac2c01b1dd7f454980e"
+      "size": 93375236,
+      "sha256": "5eed63a3387b671cc4d7f79216b69a8003e2f9b0481d17c9842126f67825800b"
     },
     {
       "name": "deepcloud-ui Setup 0.2.3.exe",
       "browser_download_url": "https://github.com/Mowen559/deepcloud-releases/releases/download/v0.2.3/deepcloud-ui.Setup.0.2.3.exe",
-      "size": 165982709,
-      "sha256": "21f8b6160e941b59183cee2958e8bce48022eb0153e51101897876fd6604e032"
+      "size": 165844191,
+      "sha256": "537881c3a96ad80ec765c8c374f18dd61157aa439234a998b00a82c70e1adfec"
     },
     {
       "name": "app.asar",
       "browser_download_url": "https://github.com/Mowen559/deepcloud-releases/releases/download/v0.2.3/app.asar",
-      "size": 93769761,
-      "sha256": "fc9f208456f37f6ca0fcd6f71f14f5226906591402ceaac2c01b1dd7f454980e"
+      "size": 93375236,
+      "sha256": "5eed63a3387b671cc4d7f79216b69a8003e2f9b0481d17c9842126f67825800b"
     }
   ]
 }
