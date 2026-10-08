@@ -1,49 +1,172 @@
-# DeepCloud Desktop Releases 🚀
+<div align="center">
 
-欢迎访问 **DeepCloud** 桌面客户端官方发行版与更新分发仓库。
+# 🚀 DeepCloud Desktop Releases
 
-DeepCloud 是一款现代化的一体化桌面工作台与数据采集、智能分析与视听娱乐系统，基于 **Java 21 + Spring Cloud 微服务后端** 与 **Next.js 16 + React 19 + Electron 43 客户端** 构建。
+<p align="center">
+  <strong>DeepCloud 桌面客户端官方发行版、更新分发与软件使用指南</strong>
+</p>
 
----
+<p align="center">
+  <a href="https://github.com/Mowen559/deepcloud-releases/releases/latest"><img src="https://img.shields.io/github/v/release/Mowen559/deepcloud-releases?color=brightgreen&label=Latest%20Version" alt="Latest Release"></a>
+  <a href="https://github.com/Mowen559/deepcloud-releases/releases"><img src="https://img.shields.io/badge/Platform-Windows%20x64-blue.svg" alt="Platform"></a>
+  <a href="https://github.com/Mowen559/deepcloud-releases/releases"><img src="https://img.shields.io/badge/Arch-x64-lightgrey.svg" alt="Arch"></a>
+  <a href="#-开源协议"><img src="https://img.shields.io/badge/License-MIT-orange.svg" alt="License"></a>
+</p>
 
-## 📥 最新版本下载 (Latest Release)
+<p align="center">
+  <a href="#-最新版本下载-v022">最新版本下载</a> •
+  <a href="#-校验和与完整性验证">哈希校验</a> •
+  <a href="#-微内核插件化架构解析">插件化架构解析</a> •
+  <a href="#-软件详细使用指引">软件使用指引</a>
+</p>
 
-[![Latest Release](https://img.shields.io/github/v/release/Mowen559/deepcloud-releases?color=brightgreen&label=Latest%20Version)](https://github.com/Mowen559/deepcloud-releases/releases/latest)
-[![Platform](https://img.shields.io/badge/Platform-Windows%20x64-blue.svg)](https://github.com/Mowen559/deepcloud-releases/releases)
-[![License](https://img.shields.io/badge/License-MIT-orange.svg)](#)
-
-👉 **前往下载最新客户端**：[GitHub Releases 页面](https://github.com/Mowen559/deepcloud-releases/releases/latest)
-
-| 发行资产 (Asset) | 适用场景 | 说明 |
-| :--- | :--- | :--- |
-| **`deepcloud-ui Setup <version>.exe`** | 完整安装 | 首次使用请下载此安装包，支持自定义路径并自动创建快捷方式 |
-| **`deepcloud-update-<version>.asar`** | 增量补丁 | 针对已有安装的轻量热更新补丁包，仅几十MB，秒级升级 |
-| **`app.asar`** | 核心文件 | 完整核心脚本文件，可直接替换安装目录 `resources/app.asar` |
-| **`checksums.txt`** | 安全校验 | 官方发布的各安装包与核心组件 SHA256 哈希校验清单 |
-
----
-
-## ✨ 核心特性
-
-- 🎬 **现代化流媒体与全功能播放器**：
-  - 支持本地高码率视频、电视直播、夸克/阿里网盘与海阔视界全平台直链无缝解析播放；
-  - 深度集成 **弹弹play 官方 API v2 开放平台**，具备 16MB 流式哈希精准匹配与大剧名智能正则检索，彻底打破防和谐文件名断层；
-  - 内置画质增强着色器（Anime4K、FSR、CAS、插帧）与 WASAPI 独占高保真音频混音；
-  - 支持多态悬浮球、画中画（PiP）与无边框沉浸模式。
-- 🤖 **本地边缘与云端协同架构**：
-  - 私有凭据端侧加密存储（基于系统级 `safeStorage`），保障用户账号绝对安全；
-  - 支持多代理网关、Sidecar 守护进程与本地 AList / WebDAV 存储挂载。
-- ⚡ **无感 ASAR 增量热更新**：
-  - 客户端启动自动探测差分更新，秒级应用更新并软重启，免去频繁全量重装的繁琐流程。
+</div>
 
 ---
 
-## 🔒 校验和验证
+## 📥 最新版本下载 (v0.2.2)
 
-在下载可执行文件后，推荐在终端中使用以下命令进行 SHA256 完整性校验：
+> [!TIP]
+> 推荐直接访问 **[GitHub Releases 官方发布页](https://github.com/Mowen559/deepcloud-releases/releases/latest)** 获取最新构建资产。
+
+| 发行资产 (Asset) | 适用场景 | 说明 | 直接下载 |
+| :--- | :--- | :--- | :--- |
+| **`deepcloud-ui Setup 0.2.2.exe`** | **全量安装** | 首次使用请下载此安装包，支持自定义路径并自动创建桌面快捷方式 | [立即下载](https://github.com/Mowen559/deepcloud-releases/releases/download/v0.2.2/deepcloud-ui.Setup.0.2.2.exe) |
+| **`deepcloud-update-v0.2.2.asar`** | **增量热更新** | 针对已有安装用户的轻量热更新补丁包（仅几十MB，秒级生效） | [立即下载](https://github.com/Mowen559/deepcloud-releases/releases/download/v0.2.2/deepcloud-update-v0.2.2.asar) |
+| **`app.asar`** | **核心包替换** | 完整核心脚本文件，可直接覆盖安装目录 `resources/app.asar` | [立即下载](https://github.com/Mowen559/deepcloud-releases/releases/download/v0.2.2/app.asar) |
+| **`deepcloud-ui Setup 0.2.2.exe.blockmap`** | **差分元数据** | 提供网络断点续传与块差分更新校验 | [立即下载](https://github.com/Mowen559/deepcloud-releases/releases/download/v0.2.2/deepcloud-ui.Setup.0.2.2.exe.blockmap) |
+| **`checksums.txt`** | **哈希清单** | 官方发布的全部安装包与核心组件 SHA256 校验清单 | [查看清单](https://github.com/Mowen559/deepcloud-releases/releases/download/v0.2.2/checksums.txt) |
+
+---
+
+## 🔒 校验和与完整性验证
+
+在终端中执行以下 PowerShell 命令核验文件完整性：
 
 ```powershell
-Get-FileHash -Path ".\deepcloud-ui Setup <version>.exe" -Algorithm SHA256
+Get-FileHash -Path ".\deepcloud-ui Setup 0.2.2.exe" -Algorithm SHA256
 ```
 
-比对输出的哈希值是否与各版本 Release Notes 或 `checksums.txt` 中公布的一致。
+### v0.2.2 官方发布哈希标准基线：
+- **`deepcloud-ui Setup 0.2.2.exe`**：`aa15c15bbac1562cfc78930549b423150bae29f92a00c327cdd5df73dd85b7cf`
+- **`deepcloud-update-v0.2.2.asar`**：`5e6d434c7f16b5df232065183395471cd15d920eb864d456781a23ab6eac164f`
+- **`app.asar`**：`5e6d434c7f16b5df232065183395471cd15d920eb864d456781a23ab6eac164f`
+
+---
+
+## 🧩 微内核插件化架构解析 (Plugin Architecture)
+
+DeepCloud 桌面端基于 **微内核操作系统容器架构 (WebOS V3.0)** 构建，实现了**内核极简、能力外挂、声明驱动、安全隔离**的现代化设计：
+
+### 1. 核心设计原则
+- **宿主无感知 (Host-Agnostic) 与零特判**：
+  宿主内核专注于窗口调度、统一动作总线（`ActionBus`）、安全能力沙箱与扩展点分发。严禁在主流程中编写针对具体应用的 `if-else` 分支，所有功能组件平等挂载。
+- **声明式清单契约 (AppManifest)**：
+  每个插件通过标准的 `manifest.json` 声明自身的入口路径、权限集合、后台守护进程参数模板以及 UI 贡献插槽（如顶栏小部件、上下文菜单、斜杠命令）。
+- **设置就地内聚铁律 (Local High Cohesion)**：
+  系统级设置（`/settings`）仅维护全系统共用状态（开发者模式、外观主题、系统语言、更新源等）；所有插件的私有业务参数必须就地内聚在其自身面板中，绝不污染系统主设置。
+
+### 2. 四级插件分类体系
+
+```text
+┌────────────────────────────────────────────────────────────────────────┐
+│                      DeepCloud WebOS 微内核容器                         │
+├─────────────────┬─────────────────┬──────────────────┬─────────────────┤
+│ Core_Shortcut   │Deep_Integration │Static_Integration│Browser_Extension│
+│ 系统快捷应用    │深度集成 (Sidecar)│静态 Web 沙箱     │浏览器原生扩展   │
+│                 │                 │                  │                 │
+│ • 系统全局设置  │ • AList 多网盘  │ • 离线 Web 工具  │ • Chrome MV3    │
+│ • 媒体中心      │ • Rclone 存储   │ • 第三方 H5 页面 │   扩展插件      │
+│ • 在线会话      │ • 本地单文件爬虫│ • 独立轻应用     │ • 网页脚本/拦截 │
+│                 │ • 本地大模型    │                  │                 │
+│ (共享宿主上下文)│ (参数宏/守护进程)│ (严格隔离原生IPC)│ (Crx Runtime)   │
+└─────────────────┴─────────────────┴──────────────────┴─────────────────┘
+```
+
+### 3. 通用 Sidecar 进程编排
+对于需要调用本地原生二进制的应用（如 AList、Rclone 等），系统支持声明式参数宏模板（`{dataDir}`, `{port}`, `{binDir}`）与健康检查探测（HTTP / 端口）。守护进程的启动、保活、健康监测与退出时的防僵尸进程树杀完全由通用管理器自动化托管。
+
+### 4. 海阔视界 (Hiker View) 规则引擎插件化
+- **沙箱隔离**：规则运行在独立的 Web Worker 隔离沙箱中，由 `HostAdapter` 提供标准化的 DOM 解析、网络代理与加解密能力；
+- **动态解析**：支持全网多源并行搜索、动态分类二级页渲染、直链自动嗅探与登录态 Cookie 自动同步。
+
+### 5. 弹幕与播放扩展生态
+- **弹弹play 官方 API v2 开放平台**：基于 16MB 流式哈希精准识别剧集正名，自动抓取多源弹幕；
+- **即时发射与上报**：控制条内置弹幕胶囊与调色板，自发弹幕秒级上屏高亮显示，并自动异步上报官方弹幕库。
+
+---
+
+## 📖 软件详细使用指引 (User Guide)
+
+### 1. 软件安装与自动更新
+
+#### 首次安装
+1. 下载 `deepcloud-ui Setup 0.2.2.exe`；
+2. 双击运行安装程序，可自选安装盘符，安装完成将自动生成桌面快捷图标。
+
+#### 客户端内一键热更新
+1. 打开客户端，点击左下角 **「设置」 -> 「通用设置」**；
+2. 确认更新源为 `Mowen559/deepcloud-releases`，点击 **「检查更新」**；
+3. 检测到新版本后，点击 **「一键热更新」**，客户端将在后台自动下载差分补丁，完成后提示重启即可生效。
+
+---
+
+### 2. 影音播放器沉浸体验
+
+#### 全网多源搜索与选集
+1. 点击左侧主导航 **「海阔视界」**；
+2. 顶部搜索框输入影片关键词，系统自动调动多个规则源并发检索并聚合呈现；
+3. 点击剧集卡片进入播放页，可自由切换播放源线路与集数。
+
+#### 快捷键操作清单
+
+| 快捷键 | 功能 |
+| :--- | :--- |
+| <kbd>Space</kbd> | 播放 / 暂停 |
+| <kbd>←</kbd> / <kbd>→</kbd> | 快退 5 秒 / 快进 5 秒 |
+| <kbd>↑</kbd> / <kbd>↓</kbd> | 音量递增 5% / 递减 5% |
+| <kbd>F</kbd> | 进入 / 退出全屏幕模式 |
+| <kbd>M</kbd> | 静音 / 恢复音量 |
+| <kbd>D</kbd> | 显示 / 隐藏弹幕 |
+| <kbd>[</kbd> / <kbd>]</kbd> | 上一集 / 下一集 |
+
+#### 全屏沉浸式菜单穿透 (W3C Top Layer)
+- 在全屏播放模式下，点击底栏菜单（画质、音轨、设置、DLNA 投屏）会自动向上展开，菜单弹层完美穿透全屏层级，绝不被视频画面遮挡；
+- 展开菜单时悬浮条保持常驻，调节参数时自动屏蔽键盘播放快捷键防误触。
+
+#### 弹幕发射与视觉定制
+- **发射弹幕**：底栏中央输入框输入弹幕内容，回车直接发送；支持切换滚动/顶部/底部弹幕及 8 种高频预设颜色；
+- **视觉设置**：在播放设置面板中可自由滑动调节字号大小（12px~48px）、不透明度与滚动速度；
+- **避让字幕**：开启「避让字幕区域」后，弹幕自动避开底部 18% 区域，保证不挡字幕。
+
+---
+
+### 3. 海阔规则导入与管理
+
+- **口令导入**：复制包含 `hiker://` 的口令，打开客户端将自动识别并弹出导入确认；
+- **文件导入**：在「海阔视界」右上角点击「导入规则」，选择本地 `.json` 文件；
+- **订阅链接**：粘贴 HTTP/HTTPS 规则订阅地址，自动拉取并保持定时更新。
+
+---
+
+### 4. AList 多网盘挂载与流式播放 (Sidecar)
+
+1. 前往 **「插件市场」** 启用 **AList** 插件；
+2. Sidecar 进程管理器将在后台自动调度 `alist.exe` 守护进程；
+3. 进入 AList 面板绑定阿里云盘、百度网盘、夸克网盘、115网盘等；
+4. 网盘中的视频资源将自动挂载至 **「媒体中心」**，支持原画直连秒播。
+
+---
+
+### 5. 桌面悬浮视窗与 AI 智能体 (Super-Agent)
+
+- **悬浮视窗**：使用全局热键唤出屏幕悬浮工具栏；
+- **离线 OCR 与翻译**：支持一键矩形框选，内置离线 PaddleOCR 识别文字与多引擎翻译；
+- **AI 助手**：文字一键带入智能体对话框，支持多厂商大模型问答与要点提炼。
+
+---
+
+## 📜 开源协议
+
+本项目采用 [MIT License](LICENSE) 授权。
+如有任何使用问题或功能建议，欢迎前往 [Issue 反馈](https://github.com/Mowen559/deepcloud-releases/issues)。
