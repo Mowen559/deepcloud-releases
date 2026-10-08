@@ -1,29 +1,29 @@
 {
-  "version": "0.2.3",
-  "tag_name": "v0.2.3",
-  "title": "DeepCloud Desktop v0.2.3 (Windows x64)",
-  "releaseNotes": "【紧急修复】彻底根治独立视频播放器黑屏与 404 崩溃，完善画中画协议与同源会话共享，全面审查排除本地测试数据，升级全球 CDN 极速版本探测与强制检查更新。",
-  "publishedAt": "2026-10-08T07:48:41Z",
-  "releaseUrl": "https://github.com/Mowen559/deepcloud-releases/releases/tag/v0.2.3",
-  "downloadUrl": "https://github.com/Mowen559/deepcloud-releases/releases/download/v0.2.3/deepcloud-update-v0.2.3.asar",
+  "version": "0.2.4",
+  "tag_name": "v0.2.4",
+  "title": "DeepCloud Desktop v0.2.4 (Windows x64)",
+  "releaseNotes": "【视觉与体验升级】全新现代化极简平滑滚动条上线！告别 Windows 原生粗灰长条与滚动箭头；新增滚动条皮肤矩阵（极简纤细 / 主题高亮 / 舒适宽条 / 完全隐形），颜色随主题配色自动平滑过渡；新增主视图右侧下拉条一键隐形与 scrollbar-gutter 防抖引擎，彻底消除卡片展开/切换时的 17px 布局抖动！",
+  "publishedAt": "2026-10-08T08:27:00Z",
+  "releaseUrl": "https://github.com/Mowen559/deepcloud-releases/releases/tag/v0.2.4",
+  "downloadUrl": "https://github.com/Mowen559/deepcloud-releases/releases/download/v0.2.4/deepcloud-update-v0.2.4.asar",
   "assets": [
     {
-      "name": "deepcloud-update-v0.2.3.asar",
-      "browser_download_url": "https://github.com/Mowen559/deepcloud-releases/releases/download/v0.2.3/deepcloud-update-v0.2.3.asar",
-      "size": 93375236,
-      "sha256": "5eed63a3387b671cc4d7f79216b69a8003e2f9b0481d17c9842126f67825800b"
+      "name": "deepcloud-update-v0.2.4.asar",
+      "browser_download_url": "https://github.com/Mowen559/deepcloud-releases/releases/download/v0.2.4/deepcloud-update-v0.2.4.asar",
+      "size": 93450422,
+      "sha256": "87f0b0279f0019f498aa66bc5a1a9277db6bf3db53e4a3c0255af1cfc1bd483c"
     },
     {
-      "name": "deepcloud-ui Setup 0.2.3.exe",
-      "browser_download_url": "https://github.com/Mowen559/deepcloud-releases/releases/download/v0.2.3/deepcloud-ui.Setup.0.2.3.exe",
-      "size": 165844191,
-      "sha256": "537881c3a96ad80ec765c8c374f18dd61157aa439234a998b00a82c70e1adfec"
+      "name": "deepcloud-ui Setup 0.2.4.exe",
+      "browser_download_url": "https://github.com/Mowen559/deepcloud-releases/releases/download/v0.2.4/deepcloud-ui.Setup.0.2.4.exe",
+      "size": 165848332,
+      "sha256": "09b6855657538db35f93845eee1c8cac59ece0609eae0954df04fa88fdf2b56b"
     },
     {
       "name": "app.asar",
-      "browser_download_url": "https://github.com/Mowen559/deepcloud-releases/releases/download/v0.2.3/app.asar",
-      "size": 93375236,
-      "sha256": "5eed63a3387b671cc4d7f79216b69a8003e2f9b0481d17c9842126f67825800b"
+      "browser_download_url": "https://github.com/Mowen559/deepcloud-releases/releases/download/v0.2.4/app.asar",
+      "size": 93450422,
+      "sha256": "87f0b0279f0019f498aa66bc5a1a9277db6bf3db53e4a3c0255af1cfc1bd483c"
     }
   ]
 }
