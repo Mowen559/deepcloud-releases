@@ -24,18 +24,18 @@
 
 ---
 
-## 📥 最新版本下载 (v0.2.2)
+## 📥 最新版本下载 (v0.2.3)
 
 > [!TIP]
 > 推荐直接访问 **[GitHub Releases 官方发布页](https://github.com/Mowen559/deepcloud-releases/releases/latest)** 获取最新构建资产。
 
 | 发行资产 (Asset) | 适用场景 | 说明 | 直接下载 |
 | :--- | :--- | :--- | :--- |
-| **`deepcloud-ui Setup 0.2.2.exe`** | **全量安装** | 首次使用请下载此安装包，支持自定义路径并自动创建桌面快捷方式 | [立即下载](https://github.com/Mowen559/deepcloud-releases/releases/download/v0.2.2/deepcloud-ui.Setup.0.2.2.exe) |
-| **`deepcloud-update-v0.2.2.asar`** | **增量热更新** | 针对已有安装用户的轻量热更新补丁包（仅几十MB，秒级生效） | [立即下载](https://github.com/Mowen559/deepcloud-releases/releases/download/v0.2.2/deepcloud-update-v0.2.2.asar) |
-| **`app.asar`** | **核心包替换** | 完整核心脚本文件，可直接覆盖安装目录 `resources/app.asar` | [立即下载](https://github.com/Mowen559/deepcloud-releases/releases/download/v0.2.2/app.asar) |
-| **`deepcloud-ui Setup 0.2.2.exe.blockmap`** | **差分元数据** | 提供网络断点续传与块差分更新校验 | [立即下载](https://github.com/Mowen559/deepcloud-releases/releases/download/v0.2.2/deepcloud-ui.Setup.0.2.2.exe.blockmap) |
-| **`checksums.txt`** | **哈希清单** | 官方发布的全部安装包与核心组件 SHA256 校验清单 | [查看清单](https://github.com/Mowen559/deepcloud-releases/releases/download/v0.2.2/checksums.txt) |
+| **`deepcloud-ui Setup 0.2.3.exe`** | **全量安装** | 首次使用请下载此安装包，支持自定义路径并自动创建桌面快捷方式 | [立即下载](https://github.com/Mowen559/deepcloud-releases/releases/download/v0.2.3/deepcloud-ui.Setup.0.2.3.exe) |
+| **`deepcloud-update-v0.2.3.asar`** | **增量热更新** | 针对已有安装用户的轻量热更新补丁包（仅几十MB，秒级生效） | [立即下载](https://github.com/Mowen559/deepcloud-releases/releases/download/v0.2.3/deepcloud-update-v0.2.3.asar) |
+| **`app.asar`** | **核心包替换** | 完整核心脚本文件，可直接覆盖安装目录 `resources/app.asar` | [立即下载](https://github.com/Mowen559/deepcloud-releases/releases/download/v0.2.3/app.asar) |
+| **`deepcloud-ui Setup 0.2.3.exe.blockmap`** | **差分元数据** | 提供网络断点续传与块差分更新校验 | [立即下载](https://github.com/Mowen559/deepcloud-releases/releases/download/v0.2.3/deepcloud-ui.Setup.0.2.3.exe.blockmap) |
+| **`checksums.txt`** | **哈希清单** | 官方发布的全部安装包与核心组件 SHA256 校验清单 | [查看清单](https://github.com/Mowen559/deepcloud-releases/releases/download/v0.2.3/checksums.txt) |
 
 ---
 
@@ -44,13 +44,14 @@
 在终端中执行以下 PowerShell 命令核验文件完整性：
 
 ```powershell
-Get-FileHash -Path ".\deepcloud-ui Setup 0.2.2.exe" -Algorithm SHA256
+Get-FileHash -Path ".\deepcloud-ui Setup 0.2.3.exe" -Algorithm SHA256
 ```
 
-### v0.2.2 官方发布哈希标准基线：
-- **`deepcloud-ui Setup 0.2.2.exe`**：`aa15c15bbac1562cfc78930549b423150bae29f92a00c327cdd5df73dd85b7cf`
-- **`deepcloud-update-v0.2.2.asar`**：`5e6d434c7f16b5df232065183395471cd15d920eb864d456781a23ab6eac164f`
-- **`app.asar`**：`5e6d434c7f16b5df232065183395471cd15d920eb864d456781a23ab6eac164f`
+### v0.2.3 官方发布哈希标准基线：
+- **`deepcloud-ui Setup 0.2.3.exe`**：`537881c3a96ad80ec765c8c374f18dd61157aa439234a998b00a82c70e1adfec`
+- **`deepcloud-update-v0.2.3.asar`**：`5eed63a3387b671cc4d7f79216b69a8003e2f9b0481d17c9842126f67825800b`
+- **`app.asar`**：`5eed63a3387b671cc4d7f79216b69a8003e2f9b0481d17c9842126f67825800b`
+
 
 ---
 
