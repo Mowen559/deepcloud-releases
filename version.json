@@ -1,39 +1,39 @@
 {
-  "version": "0.2.7",
-  "tag_name": "v0.2.7",
-  "title": "DeepCloud Desktop v0.2.7 (Windows x64)",
-  "releaseNotes": "【海阔视界与Hub AI双引擎跃迁】新增海阔视界规则分组管理、移动、重命名及可折叠分组头支持；支持海阔规则一键导出为云剪贴板口令与离线标准口令，支持剪贴板规则口令智能监听与一键导入；引入 Hub AI 智能诊断自愈与工坊组件；支持 libmpv 跨架构自动匹配与 Windows PE 位数校验；全面精简隐藏规则地址文本，界面更通透纯净。",
-  "publishedAt": "2026-10-09T11:38:00Z",
-  "releaseUrl": "https://github.com/Mowen559/deepcloud-releases/releases/tag/v0.2.7",
-  "downloadUrl": "https://github.com/Mowen559/deepcloud-releases/releases/download/v0.2.7/deepcloud-update-v0.2.7.asar",
+  "version": "0.2.8",
+  "tag_name": "v0.2.8",
+  "title": "DeepCloud Desktop v0.2.8 (Windows x64)",
+  "releaseNotes": "【海阔视界与播放引擎全面加固】治理移动端规则导入兼容性、播放断点续播、彻底删除冲突与卡片对齐；优先客户端标准直传杜绝主进程缓存未更新，加固 version 整型反序列化契约；海阔视界主面板顶部规则地址智能隐藏，界面更纯净聚焦。",
+  "publishedAt": "2026-10-09T12:05:00Z",
+  "releaseUrl": "https://github.com/Mowen559/deepcloud-releases/releases/tag/v0.2.8",
+  "downloadUrl": "https://github.com/Mowen559/deepcloud-releases/releases/download/v0.2.8/deepcloud-update-v0.2.8.asar",
   "assets": [
     {
-      "name": "deepcloud-update-v0.2.7.asar",
-      "browser_download_url": "https://github.com/Mowen559/deepcloud-releases/releases/download/v0.2.7/deepcloud-update-v0.2.7.asar",
-      "size": 93704264,
-      "sha256": "3dd2efe14b7080481d0e6101d3059a5524677756572b4f572d6e85f3b2dcbbee"
+      "name": "deepcloud-update-v0.2.8.asar",
+      "browser_download_url": "https://github.com/Mowen559/deepcloud-releases/releases/download/v0.2.8/deepcloud-update-v0.2.8.asar",
+      "size": 93783308,
+      "sha256": "206eec6345134affae963b99942998dea475932c579081363ceca9c695c4faf4"
     },
     {
-      "name": "deepcloud-ui Setup 0.2.7.exe",
-      "browser_download_url": "https://github.com/Mowen559/deepcloud-releases/releases/download/v0.2.7/deepcloud-ui.Setup.0.2.7.exe",
-      "size": 165867640,
-      "sha256": "297503d622a8f0ce30c5eac3879eb22add0ea715d2cc2557dabac44cd7778582"
+      "name": "deepcloud-ui Setup 0.2.8.exe",
+      "browser_download_url": "https://github.com/Mowen559/deepcloud-releases/releases/download/v0.2.8/deepcloud-ui.Setup.0.2.8.exe",
+      "size": 165914356,
+      "sha256": "26d191ba6a5ccb19c041a734c2a1acf2b941bad9e6ab8479ed3c0ee5316bbc97"
     },
     {
       "name": "app.asar",
-      "browser_download_url": "https://github.com/Mowen559/deepcloud-releases/releases/download/v0.2.7/app.asar",
-      "size": 93704264,
-      "sha256": "3dd2efe14b7080481d0e6101d3059a5524677756572b4f572d6e85f3b2dcbbee"
+      "browser_download_url": "https://github.com/Mowen559/deepcloud-releases/releases/download/v0.2.8/app.asar",
+      "size": 93783308,
+      "sha256": "206eec6345134affae963b99942998dea475932c579081363ceca9c695c4faf4"
     },
     {
       "name": "hub-windows-amd64.zip",
-      "browser_download_url": "https://github.com/Mowen559/deepcloud-releases/releases/download/v0.2.7/hub-windows-amd64.zip",
+      "browser_download_url": "https://github.com/Mowen559/deepcloud-releases/releases/download/v0.2.8/hub-windows-amd64.zip",
       "size": 29239335,
       "sha256": "76733eb125d2109f46736c434fe2b547ba47f214913b1f472b679b5b8fd96729"
     },
     {
       "name": "hub.exe",
-      "browser_download_url": "https://github.com/Mowen559/deepcloud-releases/releases/download/v0.2.7/hub.exe",
+      "browser_download_url": "https://github.com/Mowen559/deepcloud-releases/releases/download/v0.2.8/hub.exe",
       "size": 79171584,
       "sha256": "e4c1e380b5ea3afaec987723d9e1d3eec557fcdfb9027a9d1f9bd8ce6688f588"
     }
