@@ -25,16 +25,16 @@
 
 ---
 
-## 📥 最新版本下载 (v0.2.12)
+## 📥 最新版本下载 (v0.2.13)
 
 > [!TIP]
 > 推荐直接访问 **[GitHub Releases 官方发布页](https://github.com/Mowen559/deepcloud-releases/releases/latest)** 获取最新构建资产。
 
 | 发行资产 (Asset) | 适用场景 | 说明 | 直接下载 |
 | :--- | :--- | :--- | :--- |
-| **`deepcloud-ui Setup 0.2.12.exe`** | **全量安装** | 首次使用请下载此安装包，支持自定义路径并自动创建桌面快捷方式 | [立即下载](https://github.com/Mowen559/deepcloud-releases/releases/download/v0.2.12/deepcloud-ui.Setup.0.2.12.exe) |
-| **`deepcloud-update-v0.2.12.asar`** | **增量热更新** | 针对已有安装用户的轻量热更新补丁包（V8 字节码加固，秒级生效） | [立即下载](https://github.com/Mowen559/deepcloud-releases/releases/download/v0.2.12/deepcloud-update-v0.2.12.asar) |
-| **`app.asar`** | **核心包替换** | 完整核心二进制归档，可直接覆盖安装目录 `resources/app.asar` | [立即下载](https://github.com/Mowen559/deepcloud-releases/releases/download/v0.2.12/app.asar) |
+| **`deepcloud-ui Setup 0.2.13.exe`** | **全量安装** | 首次使用请下载此安装包，支持自定义路径并自动创建桌面快捷方式 | [立即下载](https://github.com/Mowen559/deepcloud-releases/releases/download/v0.2.13/deepcloud-ui.Setup.0.2.13.exe) |
+| **`deepcloud-update-v0.2.13.asar`** | **增量热更新** | 针对已有安装用户的轻量热更新补丁包（V8 字节码加固，秒级生效） | [立即下载](https://github.com/Mowen559/deepcloud-releases/releases/download/v0.2.13/deepcloud-update-v0.2.13.asar) |
+| **`app.asar`** | **核心包替换** | 完整核心二进制归档，可直接覆盖安装目录 `resources/app.asar` | [立即下载](https://github.com/Mowen559/deepcloud-releases/releases/download/v0.2.13/app.asar) |
 | **`hub-windows-amd64.zip`** | **AI 智能体服务** | Hub 智能体与视觉处理中台守护进程绿色包（内含 `hub.exe`，支持自动解压热加载） | [立即下载](https://github.com/Mowen559/deepcloud-releases/releases/download/v0.2.11/hub-windows-amd64.zip) |
 | **`hub.exe`** | **智能体独立程序** | Hub 智能体服务端单文件独立可执行程序 | [立即下载](https://github.com/Mowen559/deepcloud-releases/releases/download/v0.2.11/hub.exe) |
 
@@ -45,13 +45,13 @@
 在 PowerShell 终端中执行以下命令核验下载文件的完整性：
 
 ```powershell
-Get-FileHash -Path ".\deepcloud-ui Setup 0.2.12.exe" -Algorithm SHA256
+Get-FileHash -Path ".\deepcloud-ui Setup 0.2.13.exe" -Algorithm SHA256
 ```
 
-### 官方发布哈希标准基线 (v0.2.12)：
-- **`deepcloud-ui Setup 0.2.12.exe`**：`d43eb98aab86c9da1c62a3c9b97737967525e35deafa4eee85015b931cba0fac`
-- **`deepcloud-update-v0.2.12.asar`**：`a81cde8342c771647733707e81958b88b1c3a746e53d6c4b1cca5c76a5dee0e6`
-- **`app.asar`**：`a81cde8342c771647733707e81958b88b1c3a746e53d6c4b1cca5c76a5dee0e6`
+### 官方发布哈希标准基线 (v0.2.13)：
+- **`deepcloud-ui Setup 0.2.13.exe`**：`ed5cc508e90c3fc10eaa67654cc339da32c64b4acab4aa3f5f1ac16be709077d`
+- **`deepcloud-update-v0.2.13.asar`**：`34a63a74b52481b65d4c1f063772bb5d53fd2c3d8f8cf20523c888e77c6b61da`
+- **`app.asar`**：`34a63a74b52481b65d4c1f063772bb5d53fd2c3d8f8cf20523c888e77c6b61da`
 - **`hub-windows-amd64.zip`**：`76733eb125d2109f46736c434fe2b547ba47f214913b1f472b679b5b8fd96729`
 - **`hub.exe`**：`e4c1e380b5ea3afaec987723d9e1d3eec557fcdfb9027a9d1f9bd8ce6688f588`
 
