@@ -49,9 +49,9 @@ Get-FileHash -Path ".\deepcloud-ui Setup 0.2.13.exe" -Algorithm SHA256
 ```
 
 ### 官方发布哈希标准基线 (v0.2.13)：
-- **`deepcloud-ui Setup 0.2.13.exe`**：`ed5cc508e90c3fc10eaa67654cc339da32c64b4acab4aa3f5f1ac16be709077d`
-- **`deepcloud-update-v0.2.13.asar`**：`34a63a74b52481b65d4c1f063772bb5d53fd2c3d8f8cf20523c888e77c6b61da`
-- **`app.asar`**：`34a63a74b52481b65d4c1f063772bb5d53fd2c3d8f8cf20523c888e77c6b61da`
+- **`deepcloud-ui Setup 0.2.13.exe`**：`e9ff8dda5fbeac254c5885935354870be15c96bbc9f4bf3081957a456896081b`
+- **`deepcloud-update-v0.2.13.asar`**：`305b5f35c566133b12776601b6be4c2cfb2f5dbf4fb70a060820041fc8d365b3`
+- **`app.asar`**：`305b5f35c566133b12776601b6be4c2cfb2f5dbf4fb70a060820041fc8d365b3`
 - **`hub-windows-amd64.zip`**：`76733eb125d2109f46736c434fe2b547ba47f214913b1f472b679b5b8fd96729`
 - **`hub.exe`**：`e4c1e380b5ea3afaec987723d9e1d3eec557fcdfb9027a9d1f9bd8ce6688f588`
 
