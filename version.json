@@ -1,39 +1,39 @@
 {
-  "version": "0.2.10",
-  "tag_name": "v0.2.10",
-  "title": "DeepCloud Desktop v0.2.10 (Windows x64)",
-  "releaseNotes": "【热更新语法错误修复与秒级平滑升级】修复 VBScript 替换脚本转义导致的 SyntaxError 启动异常；加固增量更新生命周期与旧补丁自检清理；海阔视界主界面极简清爽体验；全功能移动端规则解析与断点续播全面生效。",
-  "publishedAt": "2026-10-09T12:36:00Z",
-  "releaseUrl": "https://github.com/Mowen559/deepcloud-releases/releases/tag/v0.2.10",
-  "downloadUrl": "https://github.com/Mowen559/deepcloud-releases/releases/download/v0.2.10/deepcloud-update-v0.2.10.asar",
+  "version": "0.2.11",
+  "tag_name": "v0.2.11",
+  "title": "DeepCloud Desktop v0.2.11 (Windows x64)",
+  "releaseNotes": "【V8原生字节码加固与海阔运行时全面演进】集成全链路 Bytenode V8 字节码保护，170 个核心模块全二进制化交付；收敛 JSON 安全代理作用域，修复未定义属性被 Proxy 劫持导致的布尔误杀；修复飞鱼4K初始化死锁自愈与 HLS 流无缝降级；彻底根治剪贴板日志误触发弹窗；完善原生 assets 虚拟协议与纯 JS 加解密降级；支持动态二级路由与完整生命周期治理。",
+  "publishedAt": "2026-10-10T14:20:00Z",
+  "releaseUrl": "https://github.com/Mowen559/deepcloud-releases/releases/tag/v0.2.11",
+  "downloadUrl": "https://github.com/Mowen559/deepcloud-releases/releases/download/v0.2.11/deepcloud-update-v0.2.11.asar",
   "assets": [
     {
-      "name": "deepcloud-update-v0.2.10.asar",
-      "browser_download_url": "https://github.com/Mowen559/deepcloud-releases/releases/download/v0.2.10/deepcloud-update-v0.2.10.asar",
-      "size": 93787836,
-      "sha256": "5066d4fba6df5e65ba4a3d358b2345366c7ca697508394883ca64e28b6ed2ee7"
+      "name": "deepcloud-update-v0.2.11.asar",
+      "browser_download_url": "https://github.com/Mowen559/deepcloud-releases/releases/download/v0.2.11/deepcloud-update-v0.2.11.asar",
+      "size": 93040556,
+      "sha256": "f3cc83d0f88af4a5be37a97b51c264bb912b50dc080264dbeec13e16a2b67da8"
     },
     {
-      "name": "deepcloud-ui Setup 0.2.10.exe",
-      "browser_download_url": "https://github.com/Mowen559/deepcloud-releases/releases/download/v0.2.10/deepcloud-ui.Setup.0.2.10.exe",
-      "size": 165915147,
-      "sha256": "d3ee9fa817cf4b3c9003717d6663fd70ec182104db3b16c6c0435ed1dea21c66"
+      "name": "deepcloud-ui Setup 0.2.11.exe",
+      "browser_download_url": "https://github.com/Mowen559/deepcloud-releases/releases/download/v0.2.11/deepcloud-ui.Setup.0.2.11.exe",
+      "size": 166836710,
+      "sha256": "b2f955e694501bbc7c68bbc980bcbfcfe9c531f1b044d402b7a7801ab4ebde87"
     },
     {
       "name": "app.asar",
-      "browser_download_url": "https://github.com/Mowen559/deepcloud-releases/releases/download/v0.2.10/app.asar",
-      "size": 93787836,
-      "sha256": "5066d4fba6df5e65ba4a3d358b2345366c7ca697508394883ca64e28b6ed2ee7"
+      "browser_download_url": "https://github.com/Mowen559/deepcloud-releases/releases/download/v0.2.11/app.asar",
+      "size": 93040556,
+      "sha256": "f3cc83d0f88af4a5be37a97b51c264bb912b50dc080264dbeec13e16a2b67da8"
     },
     {
       "name": "hub-windows-amd64.zip",
-      "browser_download_url": "https://github.com/Mowen559/deepcloud-releases/releases/download/v0.2.10/hub-windows-amd64.zip",
+      "browser_download_url": "https://github.com/Mowen559/deepcloud-releases/releases/download/v0.2.11/hub-windows-amd64.zip",
       "size": 29239335,
       "sha256": "76733eb125d2109f46736c434fe2b547ba47f214913b1f472b679b5b8fd96729"
     },
     {
       "name": "hub.exe",
-      "browser_download_url": "https://github.com/Mowen559/deepcloud-releases/releases/download/v0.2.10/hub.exe",
+      "browser_download_url": "https://github.com/Mowen559/deepcloud-releases/releases/download/v0.2.11/hub.exe",
       "size": 79171584,
       "sha256": "e4c1e380b5ea3afaec987723d9e1d3eec557fcdfb9027a9d1f9bd8ce6688f588"
     }
