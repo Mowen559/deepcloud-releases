@@ -10,11 +10,12 @@
   <a href="https://github.com/Mowen559/deepcloud-releases/releases/latest"><img src="https://img.shields.io/github/v/release/Mowen559/deepcloud-releases?color=brightgreen&label=Latest%20Version" alt="Latest Release"></a>
   <a href="https://github.com/Mowen559/deepcloud-releases/releases"><img src="https://img.shields.io/badge/Platform-Windows%20x64-blue.svg" alt="Platform"></a>
   <a href="https://github.com/Mowen559/deepcloud-releases/releases"><img src="https://img.shields.io/badge/Arch-x64-lightgrey.svg" alt="Arch"></a>
+  <a href="https://github.com/Mowen559/deepcloud-releases/releases"><img src="https://img.shields.io/badge/Security-Bytenode%20V8%20Protected-success.svg" alt="Bytenode Protected"></a>
   <a href="#-开源协议"><img src="https://img.shields.io/badge/License-MIT-orange.svg" alt="License"></a>
 </p>
 
 <p align="center">
-  <a href="#-最新版本下载-v022">最新版本下载</a> •
+  <a href="#-最新版本下载-v0211">最新版本下载</a> •
   <a href="#-校验和与完整性验证">哈希校验</a> •
   <a href="#-微内核插件化架构解析">插件化架构解析</a> •
   <a href="#-软件详细使用指引">软件使用指引</a>
@@ -24,38 +25,35 @@
 
 ---
 
-## 📥 最新版本下载 (v0.2.3)
+## 📥 最新版本下载 (v0.2.11)
 
 > [!TIP]
 > 推荐直接访问 **[GitHub Releases 官方发布页](https://github.com/Mowen559/deepcloud-releases/releases/latest)** 获取最新构建资产。
 
 | 发行资产 (Asset) | 适用场景 | 说明 | 直接下载 |
 | :--- | :--- | :--- | :--- |
-| **`deepcloud-ui Setup 0.2.3.exe`** | **全量安装** | 首次使用请下载此安装包，支持自定义路径并自动创建桌面快捷方式 | [立即下载](https://github.com/Mowen559/deepcloud-releases/releases/download/v0.2.3/deepcloud-ui.Setup.0.2.3.exe) |
-| **`deepcloud-update-v0.2.3.asar`** | **增量热更新** | 针对已有安装用户的轻量热更新补丁包（仅几十MB，秒级生效） | [立即下载](https://github.com/Mowen559/deepcloud-releases/releases/download/v0.2.3/deepcloud-update-v0.2.3.asar) |
-| **`app.asar`** | **核心包替换** | 完整核心脚本文件，可直接覆盖安装目录 `resources/app.asar` | [立即下载](https://github.com/Mowen559/deepcloud-releases/releases/download/v0.2.3/app.asar) |
-| **`hub-windows-amd64.zip`** | **AI 智能体服务** | Hub 智能体与视觉处理中台守护进程绿色包（内含 `hub.exe`，支持自动解压热加载） | [立即下载](https://github.com/Mowen559/deepcloud-releases/releases/download/v0.2.6/hub-windows-amd64.zip) |
-| **`hub.exe`** | **智能体独立程序** | Hub 智能体服务端单文件独立可执行程序 | [立即下载](https://github.com/Mowen559/deepcloud-releases/releases/download/v0.2.6/hub.exe) |
-| **`deepcloud-ui Setup 0.2.3.exe.blockmap`** | **差分元数据** | 提供网络断点续传与块差分更新校验 | [立即下载](https://github.com/Mowen559/deepcloud-releases/releases/download/v0.2.3/deepcloud-ui.Setup.0.2.3.exe.blockmap) |
-| **`checksums.txt`** | **哈希清单** | 官方发布的全部安装包与核心组件 SHA256 校验清单 | [查看清单](https://github.com/Mowen559/deepcloud-releases/releases/download/v0.2.3/checksums.txt) |
+| **`deepcloud-ui Setup 0.2.11.exe`** | **全量安装** | 首次使用请下载此安装包，支持自定义路径并自动创建桌面快捷方式 | [立即下载](https://github.com/Mowen559/deepcloud-releases/releases/download/v0.2.11/deepcloud-ui.Setup.0.2.11.exe) |
+| **`deepcloud-update-v0.2.11.asar`** | **增量热更新** | 针对已有安装用户的轻量热更新补丁包（V8 字节码加固，秒级生效） | [立即下载](https://github.com/Mowen559/deepcloud-releases/releases/download/v0.2.11/deepcloud-update-v0.2.11.asar) |
+| **`app.asar`** | **核心包替换** | 完整核心二进制归档，可直接覆盖安装目录 `resources/app.asar` | [立即下载](https://github.com/Mowen559/deepcloud-releases/releases/download/v0.2.11/app.asar) |
+| **`hub-windows-amd64.zip`** | **AI 智能体服务** | Hub 智能体与视觉处理中台守护进程绿色包（内含 `hub.exe`，支持自动解压热加载） | [立即下载](https://github.com/Mowen559/deepcloud-releases/releases/download/v0.2.11/hub-windows-amd64.zip) |
+| **`hub.exe`** | **智能体独立程序** | Hub 智能体服务端单文件独立可执行程序 | [立即下载](https://github.com/Mowen559/deepcloud-releases/releases/download/v0.2.11/hub.exe) |
 
 ---
 
 ## 🔒 校验和与完整性验证
 
-在终端中执行以下 PowerShell 命令核验文件完整性：
+在 PowerShell 终端中执行以下命令核验下载文件的完整性：
 
 ```powershell
-Get-FileHash -Path ".\deepcloud-ui Setup 0.2.3.exe" -Algorithm SHA256
+Get-FileHash -Path ".\deepcloud-ui Setup 0.2.11.exe" -Algorithm SHA256
 ```
 
-### 官方发布哈希标准基线：
+### 官方发布哈希标准基线 (v0.2.11)：
+- **`deepcloud-ui Setup 0.2.11.exe`**：`b2f955e694501bbc7c68bbc980bcbfcfe9c531f1b044d402b7a7801ab4ebde87`
+- **`deepcloud-update-v0.2.11.asar`**：`f3cc83d0f88af4a5be37a97b51c264bb912b50dc080264dbeec13e16a2b67da8`
+- **`app.asar`**：`f3cc83d0f88af4a5be37a97b51c264bb912b50dc080264dbeec13e16a2b67da8`
 - **`hub-windows-amd64.zip`**：`76733eb125d2109f46736c434fe2b547ba47f214913b1f472b679b5b8fd96729`
 - **`hub.exe`**：`e4c1e380b5ea3afaec987723d9e1d3eec557fcdfb9027a9d1f9bd8ce6688f588`
-- **`deepcloud-ui Setup 0.2.3.exe`**：`537881c3a96ad80ec765c8c374f18dd61157aa439234a998b00a82c70e1adfec`
-- **`deepcloud-update-v0.2.3.asar`**：`5eed63a3387b671cc4d7f79216b69a8003e2f9b0481d17c9842126f67825800b`
-- **`app.asar`**：`5eed63a3387b671cc4d7f79216b69a8003e2f9b0481d17c9842126f67825800b`
-
 
 ---
 
@@ -88,12 +86,14 @@ DeepCloud 桌面端基于 **微内核操作系统容器架构 (WebOS V3.0)** 构
 └─────────────────┴─────────────────┴──────────────────┴─────────────────┘
 ```
 
-### 3. 通用 Sidecar 进程编排
-对于需要调用本地原生二进制的应用（如 AList、Rclone 等），系统支持声明式参数宏模板（`{dataDir}`, `{port}`, `{binDir}`）与健康检查探测（HTTP / 端口）。守护进程的启动、保活、健康监测与退出时的防僵尸进程树杀完全由通用管理器自动化托管。
+### 3. V8 原生字节码加固体系 (Bytenode Enterprise Shield)
+- **100% 二进制化交付**：主进程入口及 `native/` 目录下 170 个核心业务模块、数据库操作层与规则运行时全部编译为原生 `.jsc` 字节码，无明文 JavaScript 源码暴露；
+- **智能 Loader 路由 Hook**：内置 Bootstrap Loader 透明拦截模块请求并重定向至字节码，兼顾卓越运行效率与企业级知识产权安全。
 
-### 4. 海阔视界 (Hiker View) 规则引擎插件化
-- **沙箱隔离**：规则运行在独立的 Web Worker 隔离沙箱中，由 `HostAdapter` 提供标准化的 DOM 解析、网络代理与加解密能力；
-- **动态解析**：支持全网多源并行搜索、动态分类二级页渲染、直链自动嗅探与登录态 Cookie 自动同步。
+### 4. 海阔视界 (Hiker View) 规则引擎演进
+- **JSON 安全代理作用域收敛**：建立属性容器精准白名单（`isContainerProp`），普通未声明字段严格遵循 ECMAScript 原生布尔语义，彻底根治 Proxy 代理劫持导致的条件误杀；
+- **原生 Assets 虚拟协议**：统一支持 `hiker://assets/` 虚拟协议与纯 JS 跨平台加解密降级；
+- **多线路播放自愈**：飞鱼4K初始化死锁自愈、HLS流无缝降级与视频选集生命周期治理。
 
 ### 5. 弹幕与播放扩展生态
 - **弹弹play 官方 API v2 开放平台**：基于 16MB 流式哈希精准识别剧集正名，自动抓取多源弹幕；
@@ -106,7 +106,7 @@ DeepCloud 桌面端基于 **微内核操作系统容器架构 (WebOS V3.0)** 构
 ### 1. 软件安装与自动更新
 
 #### 首次安装
-1. 下载 `deepcloud-ui Setup 0.2.2.exe`；
+1. 下载 `deepcloud-ui Setup 0.2.11.exe`；
 2. 双击运行安装程序，可自选安装盘符，安装完成将自动生成桌面快捷图标。
 
 #### 客户端内一键热更新
