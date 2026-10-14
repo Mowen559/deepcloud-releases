@@ -37,5 +37,10 @@
       "size": 79171584,
       "sha256": "e4c1e380b5ea3afaec987723d9e1d3eec557fcdfb9027a9d1f9bd8ce6688f588"
     }
-  ]
+  ],
+  "shims": {
+    "version": "1.0.0",
+    "name": "@deepcloud/hiker-shims",
+    "description": "Open compatibility shims for Android, Java standard libraries, and CryptoUtil"
+  }
 }

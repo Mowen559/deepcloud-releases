@@ -268,7 +268,21 @@ DeepCloud 通过通用 Sidecar 守护进程管理器，原生内置了 AList 多
 
 ---
 
+## 🧩 社区共建开源资产：海阔视界兼容垫片库 (`hiker-shims/`)
+
+为了彻底解决海阔视界（HikerView）与聚阅（Juyue）复杂规则调用生僻 Android / Java API 的长尾兼容性问题，本仓库正式开源并托管独立垫片库 **[`hiker-shims/`](./hiker-shims/)**：
+
+* **零特权纯算子**：100% 纯 JavaScript（基于 Node.js 原生标准库与 `crypto-js`），高保真模拟 `android.util.Base64`、`java.lang.String`、`javax.crypto.Cipher`、`CryptoUtil` 与 `SettingItem`；
+* **极速自动化测试**：内置基于 Node.js 原生的测试套件（`npm test`），毫秒级执行；
+* **沙箱动态热更新**：
+  * 欢迎社区开发者自主提交 PR 补充缺失的方法与类；
+  * PR 合并后，DeepCloud 桌面客户端与边缘爬虫引擎将**自动静默拉取最新垫片并热重载生效，全程无需重新打包或安装桌面客户端**！
+* **开发者贡献指南**：详情请阅读 **[`hiker-shims/CONTRIBUTING.md`](./hiker-shims/CONTRIBUTING.md)**。
+
+---
+
 ## 📜 开源协议
 
 DeepCloud 桌面端遵循 [MIT License](LICENSE) 开源协议。
 如果您在使用过程中发现任何问题或有新功能诉求，欢迎随时提交 [GitHub Issue](https://github.com/Mowen559/deepcloud-releases/issues)！
+

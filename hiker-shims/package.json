@@ -1,0 +1,24 @@
+{
+  "name": "@deepcloud/hiker-shims",
+  "version": "1.0.0",
+  "description": "Open compatibility shims for Android, Java standard libraries, and CryptoUtil in JavaScript/Node.js runtimes",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
+  "scripts": {
+    "test": "node --test __tests__/*.test.js"
+  },
+  "keywords": [
+    "hiker",
+    "shims",
+    "android",
+    "java",
+    "crypto",
+    "compatibility",
+    "deepcloud"
+  ],
+  "author": "DeepCloud Team & Open Source Contributors",
+  "license": "MIT",
+  "dependencies": {
+    "crypto-js": "^4.1.1"
+  }
+}
