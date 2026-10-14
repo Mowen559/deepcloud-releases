@@ -1,0 +1,12 @@
+# scraper-service 运行依赖
+#
+# scrapling 版本已与开发机环境及打包的 exe 环境对齐。
+# 注意：排障时先核 /health 返回的 scraplingVersion。
+scrapling==0.4.10
+
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+pydantic==2.10.4
+pycryptodome>=3.20.0
+requests>=2.31.0
+python-multipart>=0.0.32

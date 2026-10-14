@@ -1,0 +1,7 @@
+# 开发/测试依赖（运行时不需要）
+#
+# 装法：pip install -r requirements.txt -r requirements-dev.txt
+pytest==8.3.4
+
+# 打包成 exe 用（见 build-exe.ps1，脚本缺失时会自行安装）
+pyinstaller==6.11.1
