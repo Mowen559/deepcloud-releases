@@ -29,18 +29,18 @@
 
 ---
 
-## 📥 快速下载与资产清单 (v0.2.11)
+## 📥 快速下载与资产清单 (v0.2.12)
 
 > [!TIP]
 > 推荐直接访问 **[GitHub Releases 官方发布页](https://github.com/Mowen559/deepcloud-releases/releases/latest)** 获取最新版本。
 
 | 发行资产 (Asset) | 适用场景 | 说明 | 直接下载 |
 | :--- | :--- | :--- | :--- |
-| **`deepcloud-ui Setup 0.2.11.exe`** | **全新全量安装** | 首次使用请下载此安装包，具备自定义安装目录、开始菜单与桌面快捷方式 | [立即下载](https://github.com/Mowen559/deepcloud-releases/releases/download/v0.2.11/deepcloud-ui.Setup.0.2.11.exe) |
-| **`deepcloud-update-v0.2.11.asar`** | **增量无感热更** | 针对已有安装用户的轻量级差分补丁包（V8 原生字节码加固，仅约 88MB，秒级下载热更） | [立即下载](https://github.com/Mowen559/deepcloud-releases/releases/download/v0.2.11/deepcloud-update-v0.2.11.asar) |
-| **`app.asar`** | **核心包手动覆盖** | 完整核心二进制归档，可直接复制覆盖安装目录下的 `resources/app.asar` | [立即下载](https://github.com/Mowen559/deepcloud-releases/releases/download/v0.2.11/app.asar) |
-| **`hub-windows-amd64.zip`** | **AI 视觉与服务中台** | Hub 智能体与视觉处理中台守护进程绿色包（内含 `hub.exe`） | [立即下载](https://github.com/Mowen559/deepcloud-releases/releases/download/v0.2.11/hub-windows-amd64.zip) |
-| **`hub.exe`** | **智能体独立程序** | Hub 智能体服务端单文件独立可执行文件 | [立即下载](https://github.com/Mowen559/deepcloud-releases/releases/download/v0.2.11/hub.exe) |
+| **`deepcloud-ui Setup 0.2.12.exe`** | **全新全量安装** | 首次使用请下载此安装包，具备自定义安装目录、开始菜单与桌面快捷方式 | [立即下载](https://github.com/Mowen559/deepcloud-releases/releases/download/v0.2.12/deepcloud-ui.Setup.0.2.12.exe) |
+| **`deepcloud-update-v0.2.12.asar`** | **增量无感热更** | 针对已有安装用户的轻量级差分补丁包（V8 原生字节码加固，仅约 108MB，秒级下载热更） | [立即下载](https://github.com/Mowen559/deepcloud-releases/releases/download/v0.2.12/deepcloud-update-v0.2.12.asar) |
+| **`app.asar`** | **核心包手动覆盖** | 完整核心二进制归档，可直接复制覆盖安装目录下的 `resources/app.asar` | [立即下载](https://github.com/Mowen559/deepcloud-releases/releases/download/v0.2.12/app.asar) |
+| **`hub-windows-amd64.zip`** | **AI 视觉与服务中台** | Hub 智能体与视觉处理中台守护进程绿色包（内含 `hub.exe`） | [立即下载](https://github.com/Mowen559/deepcloud-releases/releases/download/v0.2.12/hub-windows-amd64.zip) |
+| **`hub.exe`** | **智能体独立程序** | Hub 智能体服务端单文件独立可执行文件 | [立即下载](https://github.com/Mowen559/deepcloud-releases/releases/download/v0.2.12/hub.exe) |
 
 ---
 
@@ -49,15 +49,15 @@
 为防范网络传输篡改或下载损坏，在 Windows PowerShell 终端中执行以下命令可验证文件指纹：
 
 ```powershell
-Get-FileHash -Path ".\deepcloud-ui Setup 0.2.11.exe" -Algorithm SHA256
+Get-FileHash -Path ".\deepcloud-ui Setup 0.2.12.exe" -Algorithm SHA256
 ```
 
-### 官方标准哈希清单 (v0.2.11)：
-- **`deepcloud-ui Setup 0.2.11.exe`**：`3a9250f5212e6349222f83656c303049ad14bbce9bade0a16913b94f10e2f336`
-- **`deepcloud-update-v0.2.11.asar`**：`37565be145b9d571e68efa7b99431e7b982fcd9754e99c566adcd38f5945ebf9`
-- **`app.asar`**：`37565be145b9d571e68efa7b99431e7b982fcd9754e99c566adcd38f5945ebf9`
-- **`hub-windows-amd64.zip`**：`76733eb125d2109f46736c434fe2b547ba47f214913b1f472b679b5b8fd96729`
-- **`hub.exe`**：`e4c1e380b5ea3afaec987723d9e1d3eec557fcdfb9027a9d1f9bd8ce6688f588`
+### 官方标准哈希清单 (v0.2.12)：
+- **`deepcloud-ui Setup 0.2.12.exe`**：`5cdc1904c550fe112da5ad30094451acb3efb275a4a3d1f14fa4dcd9953862cb`
+- **`deepcloud-update-v0.2.12.asar`**：`625f7d413dba706db4dc657e60d88ce684a5d497b76b6f5118770dd62b04a500`
+- **`app.asar`**：`625f7d413dba706db4dc657e60d88ce684a5d497b76b6f5118770dd62b04a500`
+- **`hub-windows-amd64.zip`**：`2e5ed4d0f27abb9c46d1296a157c71c20957b6e76dc237921923e89e055dd9c1`
+- **`hub.exe`**：`4cc5bcae06d333da8f0b0f4f617d62157e001aa4e8f6c48c1915da1091958f68`
 
 ---
 
