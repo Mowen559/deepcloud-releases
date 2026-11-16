@@ -1,10 +1,13 @@
 <div align="center">
 
-# 🚀 DeepCloud Desktop (深云智能工作台)
+# 🚀 墨海云笈 · DeepCloud Desktop (深云智能工作台)
 
 <p align="center">
   <strong>面向 AI 时代的端云协同数据采集、影音娱乐与智能分析 All-in-One 桌面微内核操作系统</strong>
 </p>
+
+> [!IMPORTANT]
+> ⚖️ **发版免责声明**：本软件为开源中立的通用桌面容器与沙箱执行框架，官方发行版中**坚决不内置、不提供、不转码亦不分发任何受版权保护的音视频、小说或第三方商业内容**。用户自行加载第三方规则引发的一切法律与版权争议均由使用者独立承担，详见 [《发版免责声明》(DISCLAIMER.md)](./DISCLAIMER.md)。
 
 <p align="center">
   <a href="https://github.com/Mowen559/deepcloud-releases/releases/latest"><img src="https://img.shields.io/github/v/release/Mowen559/deepcloud-releases?color=brightgreen&label=Latest%20Version" alt="Latest Release"></a>
@@ -22,7 +25,8 @@
   <a href="#-第三章旗舰影音播放器使用教程">播放器教程</a> •
   <a href="#-第四章alist-多网盘挂载与-4k-直连播放">网盘挂载</a> •
   <a href="#-第五章桌面悬浮工具离线-ocr-与-ai-助手">AI 悬浮助手</a> •
-  <a href="#-第六章常见问题与故障自愈-faq">常见问答</a>
+  <a href="#-第六章常见问题与故障自愈-faq">常见问答</a> •
+  <a href="#-发版免责声明-release-disclaimer">免责声明</a>
 </p>
 
 </div>
@@ -278,6 +282,23 @@ DeepCloud 通过通用 Sidecar 守护进程管理器，原生内置了 AList 多
   * 欢迎社区开发者自主提交 PR 补充缺失的方法与类；
   * PR 合并后，DeepCloud 桌面客户端与边缘爬虫引擎将**自动静默拉取最新垫片并热重载生效，全程无需重新打包或安装桌面客户端**！
 * **开发者贡献指南**：详情请阅读 **[`hiker-shims/CONTRIBUTING.md`](./hiker-shims/CONTRIBUTING.md)**。
+
+---
+
+## ⚖️ 发版免责声明 (Release Disclaimer)
+
+1. **研发与学习定位**：
+   - 本发行版程序（包括安装包、差分热更补丁、守护进程、二进制文件等）仅作为开源社区与开发者探索桌面架构、V8 沙箱隔离、AI 智能体调度与音视频渲染技术的成果展示与测试交流使用。
+2. **中立沙箱与第三方内容免责**：
+   - 客户端为**纯中立的执行环境与通用播放器框架**，官方安装包与补丁中**绝不包含、不托管、亦不分发任何受版权保护的音视频、小说、漫画或第三方商业数据**；
+   - 用户自行导入或通过社区插件中心获取的第三方规则、小程序与源站媒体流，其版权均归原作者或目标源站所有。因加载、解析第三方网络资源引发的一切版权争议、法律后果均由使用者自行独立承担，开发者及项目方概不承担连带责任。
+3. **数据隐私与本地脱机**：
+   - 软件坚持“数据留端 (Local-First)”原则。用户的私有网盘 Token、第三方 Cookie、自定义规则与历史记录均默认仅加密存储于用户本地系统数据库中，不经过云端回传；
+   - 用户因自行分享口令、外泄系统凭据引发的安全风险与账号损失，由使用者自行承担。
+4. **侵权下架与正当权利维护 (Notice-and-Takedown)**：
+   - 本项目恪守“避风港原则”。若任何权利人认为发行版中的某些内容或描述侵犯了合法权益，请通过发起 [GitHub Issue](https://github.com/Mowen559/deepcloud-releases/issues) 提交权属证明，维护团队核实后将在 **24 小时内下架并清除相关资产**。
+
+> 完整法律声明请查阅：[《官方发版免责声明》(DISCLAIMER.md)](./DISCLAIMER.md)
 
 ---
 

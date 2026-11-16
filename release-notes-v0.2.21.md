@@ -37,3 +37,7 @@
 - `app.asar`: `e512f8937a35529aef23d4c4ddb07c65147344864d9946bfdeded9cc0b627477`
 - `hub-windows-amd64.zip`: `0f2fc42b94ff284430dcb5a544c8e87817ffcbaf98e5008d977c4b748af141cc`
 - `hub.exe`: `19a89c37ff2bca95993a4f81622cd44d1ccf64cbc8859decbbb6b0391a42c0d4`
+
+---
+
+> ⚖️ **发版免责声明**：本安装程序及更新补丁仅供技术研究交流使用。本软件作为通用中立执行沙箱，坚决不内置、不提供亦不分发任何受版权保护的音视频及商业内容。用户自行加载第三方规则引发的一切法律与版权争议均由使用者独立承担。详见 [《官方发版免责声明》(DISCLAIMER.md)](./DISCLAIMER.md)。
