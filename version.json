@@ -1,29 +1,29 @@
 {
-  "version": "0.2.21",
-  "tag_name": "v0.2.21",
-  "title": "DeepCloud Desktop v0.2.21 (Windows x64)",
-  "releaseNotes": "【三位一体规则市场生态、社区免登录一键提PR、海阔跨端同构沙箱隔离与SuperAgent智能体架构升维】落地内置/社区/云端三位一体插件中心架构，支持规则多版本自由切换、后悔药版本回退、高清二维码扫码与免登录一键发起PR；彻底根治变量跨规则穿透与全局变量污染，对齐移动端沙箱隔离标准；集成LibVLC离屏渲染Native扩展与RV32离屏双缓冲管线；全面对齐开源顶级智能体架构（Claude Code/OpenHands/Manus），重构全局工具别名映射、参数归一化与常规开发命令零阻抗放行；全量160个核心模块通过V8原生字节码编译加固（Bytenode）。",
-  "publishedAt": "2026-11-08T15:00:00Z",
-  "releaseUrl": "https://github.com/Mowen559/deepcloud-releases/releases/tag/v0.2.21",
-  "downloadUrl": "https://github.com/Mowen559/deepcloud-releases/releases/download/v0.2.21/deepcloud-update-v0.2.21.asar",
+  "version": "0.2.22",
+  "tag_name": "v0.2.22",
+  "title": "DeepCloud Desktop v0.2.22 (Windows x64)",
+  "releaseNotes": "【纯净双语本地化全面落地、海阔垫片引擎重构、弹弹play免鉴权镜像与多媒体播放脱机自治】彻底剔除生硬机翻与括号英文，中文环境100%纯净，英文环境对齐操作系统地道术语；确立业务数据隔离铁律，杜绝DOM拦截与正则篡改动态业务数据；同步升级@deepcloud/hiker-shims开源垫片库，扩展DOM解析与Java标准库模拟；弹弹play弹幕支持Weeblify免鉴权镜像与429热备熔断，M3U8 Master最高画质原画自动置顶；全量153个核心业务模块通过V8原生字节码加固（Bytenode）。",
+  "publishedAt": "2026-11-15T15:45:00Z",
+  "releaseUrl": "https://github.com/Mowen559/deepcloud-releases/releases/tag/v0.2.22",
+  "downloadUrl": "https://github.com/Mowen559/deepcloud-releases/releases/download/v0.2.22/deepcloud-update-v0.2.22.asar",
   "assets": [
     {
-      "name": "deepcloud-update-v0.2.21.asar",
-      "browser_download_url": "https://github.com/Mowen559/deepcloud-releases/releases/download/v0.2.21/deepcloud-update-v0.2.21.asar",
-      "size": 106893559,
-      "sha256": "e512f8937a35529aef23d4c4ddb07c65147344864d9946bfdeded9cc0b627477"
+      "name": "deepcloud-update-v0.2.22.asar",
+      "browser_download_url": "https://github.com/Mowen559/deepcloud-releases/releases/download/v0.2.22/deepcloud-update-v0.2.22.asar",
+      "size": 107037626,
+      "sha256": "e99e4bb9fa29aa350d4a183bb06b9d4478a2f793ac5a3e64bc2f1e4bbc80bc5e"
     },
     {
-      "name": "deepcloud-ui Setup 0.2.21.exe",
-      "browser_download_url": "https://github.com/Mowen559/deepcloud-releases/releases/download/v0.2.21/deepcloud-ui.Setup.0.2.21.exe",
-      "size": 212438155,
-      "sha256": "8ce19e1c4a130331740fbf9d8e379dbfca55bbe43b0c9d4cc7becb3cc4b1d72f"
+      "name": "deepcloud-ui Setup 0.2.22.exe",
+      "browser_download_url": "https://github.com/Mowen559/deepcloud-releases/releases/download/v0.2.22/deepcloud-ui.Setup.0.2.22.exe",
+      "size": 212465823,
+      "sha256": "05868939345fe41bebc70b100d31c6db27aa10590d44f472b3fe139c5827dc3d"
     },
     {
       "name": "app.asar",
-      "browser_download_url": "https://github.com/Mowen559/deepcloud-releases/releases/download/v0.2.21/app.asar",
-      "size": 106893559,
-      "sha256": "e512f8937a35529aef23d4c4ddb07c65147344864d9946bfdeded9cc0b627477"
+      "browser_download_url": "https://github.com/Mowen559/deepcloud-releases/releases/download/v0.2.22/app.asar",
+      "size": 107037626,
+      "sha256": "e99e4bb9fa29aa350d4a183bb06b9d4478a2f793ac5a3e64bc2f1e4bbc80bc5e"
     },
     {
       "name": "hub-windows-amd64.zip",
